@@ -30,9 +30,13 @@ The model is served using **Streamlit** to make predictions interactively from a
 ## 📂 Project Structure
 
 ├── AIML Dataset.csv # Dataset file
+
 ├── credit_card_fraud_detection.ipynb # Jupyter notebook for EDA and model building
+
 ├── fraud_detection.py # Streamlit web app
+
 ├── fraud_detection_pipeline.pkl # Serialized ML pipeline
+
 └── README.md # Project documentation
 
 
@@ -40,7 +44,7 @@ The model is served using **Streamlit** to make predictions interactively from a
 
 ## 📊 Dataset
 
-- **Source:** [Kaggle or AIML dataset] (custom)
+- **Source:** https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download
 - **Columns:**
   - `type`: Transaction type (`TRANSFER`, `CASH_OUT`, etc.)
   - `amount`: Transaction amount
@@ -59,7 +63,7 @@ git clone https://github.com/devansh-sharma15/Fraud_Detection_System.git
 cd Fraud_Detection_System
 
 
-2. Install Dependencies
+### 2. Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
@@ -68,7 +72,7 @@ Or manually install:
 bash
 Copy code
 pip install pandas scikit-learn streamlit imbalanced-learn joblib
-3. Run the Streamlit App
+### 3. Run the Streamlit App
 bash
 Copy code
 streamlit run fraud_detection.py
