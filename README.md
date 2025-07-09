@@ -58,25 +58,21 @@ The model is served using **Streamlit** to make predictions interactively from a
 
 ### 1. Clone the Repository
 
-bash
 git clone https://github.com/devansh-sharma15/Fraud_Detection_System.git
 cd Fraud_Detection_System
 
 
 ### 2. Install Dependencies
-bash
-Copy code
+
 pip install -r requirements.txt
 Or manually install:
 
-bash
-Copy code
 pip install pandas scikit-learn streamlit imbalanced-learn joblib
 
 ### 3. Run the Streamlit App
-bash
-Copy code
+
 streamlit run fraud_detection.py
+
 📌 How It Works
 The model takes the following inputs:
 
